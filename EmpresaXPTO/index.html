@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <title>XPTO</title>
+</head>
+<body>
+    <header>
+        <h1>XPTO Campanhas</h1>
+        <p>REALIZAÇÃO DE CAMPANHAS PARA EMPRESAS</p>
+    </header>
+    <main>
+        <section class="login">
+            <div class="botoes">
+                <p>PARTICIPE DA NOSSA PLATAFORMA E CONCORRA A PRÊMIOS</p>
+                <button class="btnEnviar" onclick="abrirPaginaEntrar()">ENTRAR</button>
+                <button class="btnEnviar" onclick="abrirPaginaCadastrar()">CADASTRE-SE</button>
+            </div>
+            <div class="imgLogin">
+                <img src="imagens/cupons-desconto.jpeg" alt="">
+                <img src="imagens/cupons-desconto1.jpg" alt="">
+                <img src="imagens/cupons-desconto3.png" alt="">
+            </div>
+
+        </section>
+        <section class="eventos">
+            <div class="img-eventos">
+                <img src="imagens/natal.jpg" alt="Imagem do Natal">
+                <p>Campanha de Natal</p>
+            </div>
+            <div class="img-eventos">
+                <img src="imagens/pascoa.webp" alt="Imagem da Pascoa">
+                <p>Campanha da Páscoa</p>
+            </div>
+            <div class="img-eventos">
+                <img src="imagens/sao_joao.avif" alt="Imagem do São João">
+                <p>Campanha de São João</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function abrirPaginaEntrar() {
+            window.location.href = "login.html";
+
+        }
+        function abrirPaginaCadastrar() {
+            window.location.href = "cadastrar.html";
+        }
+        </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+:root {
+    --dourado: #FFD700;
+    --verde-esmeralda: #00A99D;
+    --prata: #C0C0C0;
+    --roxo-profundo: #6B3FA0;
+    --azul-marinho: #003366; 
+    --amarelo-dourado: #FFC300;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffc400a1;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.entrar {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px 70px 0px;
+}
+
+.entrar > label {
+    align-self: flex-start;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.campo {
+    width: 90%;
+    height: 40px;
+}
+
+.btnEnviar {
+    margin: 20px;  
+}
+

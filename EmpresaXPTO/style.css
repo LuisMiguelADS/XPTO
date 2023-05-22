@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+:root {
+    --dourado: #FFD700;
+    --verde-esmeralda: #00A99D;
+    --prata: #C0C0C0;
+    --roxo-profundo: #6B3FA0;
+    --azul-marinho: #003366; 
+    --amarelo-dourado: #FFC300;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--roxo-profundo);
+    border-radius: 0px 0px 10px 10px;
+}
+
+header > h1 {
+    font-size: 3.5em;
+    text-align: center;
+    color: var(--amarelo-dourado);
+    letter-spacing: 5px;
+}
+
+header > p {
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    color: var(--prata);
+}
+
+.btnEnviar {
+    background-color: var(--roxo-profundo);
+    color: white;
+    font-size: 1.3em;
+    font-weight: 800;
+    letter-spacing: 1px;
+    cursor: pointer;
+    height: 80px;
+    width: 80%;
+    border-radius: 15px;
+    border: none;
+}
+
+.btnEnviar:hover {
+    background-color: #3a1b61
+}
